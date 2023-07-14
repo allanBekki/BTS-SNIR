@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+from flask import Flask
+import os
+import mysql.connector
+from contextlib import closing
+import socket
+
+app = Flask(__name__)
+
+# Paramètres de connexion à la base de données
+connection_params = {
+    'host': "localhost",
+    'user': "pi",
+    'password': "admin",
+    'database': "bdd_sonnerie",
+    'use_pure': True
+}
+
+# Requête pour récupérer l'adresse IP
+query = "SELECT adrIP FROM telephone"
+
+# Adresse IP de l'ESP
+esp_ip = "192.168.100.10"  # remplacer par votre adresse IP ESP
+
+# Port de l'ESP
+esp_port = 2000  # remplacer par le port que vous utilisez sur l'ES
+
+# Route pour la détection de présence et envoi de message à l'ESP
+@app.route('/detection_presence', methods=['GET'])
+def execute_script():
+    # Connexion à la base de données et exécution de la requête
+    with closing(mysql.connector.connect(**connection_params)) as cnx, closing(cnx.cursor()) as cursor:
+        cursor.execute(query)
+        result = cursor.fetchone()
+
+        if result is not None:
+            print(result[0])
+        else:
+            print("Aucun résultat trouvé.")
+
+        # Fermeture de la connexion
+        cursor.close()
+        cnx.close()
+
+        # Vérification de la présence en utilisant une requête ping
+        reponse = os.system("ping -c 1 {}".format(result[0]))
+
+        if reponse == 0:
+            print("{} est accessible.".format(result[0]))
+        else:
+            print("{} n'est pas accessible.".format(result[0]))
+            # Envoi du message à l'ESP
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.connect((esp_ip, esp_port))
+                message = "Envoie SMS"
+                s.send(message.encode())
+
+    return "Exécution du script terminée.", 200
+
+# Démarrage du serveur Flask
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5200)
