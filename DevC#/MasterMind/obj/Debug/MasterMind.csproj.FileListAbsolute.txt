@@ -1,0 +1,12 @@
+D:\Allan\Allan_TP10\MasterMind\bin\Debug\Form1.exe.config
+D:\Allan\Allan_TP10\MasterMind\bin\Debug\Form1.exe
+D:\Allan\Allan_TP10\MasterMind\bin\Debug\Form1.pdb
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\MasterMind.csproj.AssemblyReference.cache
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\MasterMind.csproj.SuggestedBindingRedirects.cache
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\Form1.MasterMind.resources
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\Form1.Properties.Resources.resources
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\MasterMind.csproj.GenerateResource.cache
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\MasterMind.csproj.CoreCompileInputs.cache
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\Form1.exe
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\Form1.pdb
+D:\Allan\Allan_TP10\MasterMind\obj\Debug\Form1.FormJeu.resources

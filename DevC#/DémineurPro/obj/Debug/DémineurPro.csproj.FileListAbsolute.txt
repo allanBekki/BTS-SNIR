@@ -1,0 +1,21 @@
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.AssemblyReference.cache
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.SuggestedBindingRedirects.cache
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.Properties.Resources.resources
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.GenerateResource.cache
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.CoreCompileInputs.cache
+D:\Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.exe.config
+D:\Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.exe
+D:\Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.pdb
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.exe
+D:\Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.pdb
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.AssemblyReference.cache
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.SuggestedBindingRedirects.cache
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.Properties.Resources.resources
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.GenerateResource.cache
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.csproj.CoreCompileInputs.cache
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.exe
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.pdb
+D:\Bekki Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.exe.config
+D:\Bekki Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.exe
+D:\Bekki Allan\Allan_TP6\DémineurPro\bin\Debug\DémineurPro.pdb
+D:\Bekki Allan\Allan_TP6\DémineurPro\obj\Debug\DémineurPro.FormDemineurPro.resources

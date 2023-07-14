@@ -1,0 +1,11 @@
+D:\temp projet vs2022\Form1\bin\Debug\Form1.exe.config
+D:\temp projet vs2022\Form1\bin\Debug\Form1.exe
+D:\temp projet vs2022\Form1\bin\Debug\Form1.pdb
+D:\temp projet vs2022\Form1\obj\Debug\Form1.csproj.AssemblyReference.cache
+D:\temp projet vs2022\Form1\obj\Debug\Form1.csproj.SuggestedBindingRedirects.cache
+D:\temp projet vs2022\Form1\obj\Debug\Form1.Properties.Resources.resources
+D:\temp projet vs2022\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+D:\temp projet vs2022\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+D:\temp projet vs2022\Form1\obj\Debug\Form1.exe
+D:\temp projet vs2022\Form1\obj\Debug\Form1.pdb
+D:\temp projet vs2022\Form1\obj\Debug\Form1.MasterMind.resources
